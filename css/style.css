@@ -87,7 +87,7 @@ header {
 }
 
 .header {
-  padding-top: 71px;
+  padding-top: 55px;
 }
 
 .header__nav {
@@ -153,6 +153,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: var(--secondary-text-color);
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -261,6 +262,10 @@ header {
   padding-bottom: 20px;
   border-bottom: 1px solid #e7e7e7;
 }
+.depatment__item:nth-child(1) {
+  padding-top: 0;
+}
+
 .depatment__top-text {
   font-weight: 600;
   font-size: 24px;
@@ -346,7 +351,7 @@ header {
   text-align: center;
 }
 
-.reviews__icon {
+.reviews__icon-quotes {
   margin-bottom: 34px;
 }
 .button {
@@ -369,13 +374,13 @@ header {
   font-size: 16px;
   line-height: 2.5;
   margin-bottom: 40px;
+  text-align: center;
 }
 .reviews__bottom-text {
   font-weight: 600;
   font-size: 24px;
   line-height: 1.67;
   letter-spacing: 0.245em;
-  text-transform: uppercase;
   color: var(--accent-color);
 }
 
