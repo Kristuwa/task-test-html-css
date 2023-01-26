@@ -441,6 +441,7 @@ header {
 
 .gallery__header {
   display: flex;
+  align-items: center;
 }
 
 .text-container {
@@ -461,12 +462,11 @@ header {
 }
 
 .button-container {
-  padding-top: 37px;
   margin-left: auto;
 }
 
 .gallery__button + .gallery__button {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .gallery-list {
